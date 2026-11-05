@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تطبيق الطقس</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>☁️ تطبيق الطقس</h1>
+
+    <form id="search-form" class="search">
+      <input id="city-input" type="text" placeholder="اكتب اسم المدينة... مثلاً القاهرة" autocomplete="off">
+      <button type="submit">بحث</button>
+    </form>
+
+    <p id="message" class="message"></p>
+
+    <section id="weather" class="weather hidden">
+      <h2 id="city-name"></h2>
+      <div class="current">
+        <span id="icon" class="icon"></span>
+        <span id="temp" class="temp"></span>
+      </div>
+      <p id="description" class="description"></p>
+
+      <div class="details">
+        <div>💧 الرطوبة <strong id="humidity"></strong></div>
+        <div>💨 الرياح <strong id="wind"></strong></div>
+      </div>
+
+      <h3>الأيام الجاية</h3>
+      <div id="forecast" class="forecast"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
