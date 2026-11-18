@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>لعبة X-O</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>❌⭕ لعبة X-O</h1>
+    <p id="status" class="status">دورك: إنت X</p>
+
+    <div id="board" class="board">
+      <button class="cell" data-index="0"></button>
+      <button class="cell" data-index="1"></button>
+      <button class="cell" data-index="2"></button>
+      <button class="cell" data-index="3"></button>
+      <button class="cell" data-index="4"></button>
+      <button class="cell" data-index="5"></button>
+      <button class="cell" data-index="6"></button>
+      <button class="cell" data-index="7"></button>
+      <button class="cell" data-index="8"></button>
+    </div>
+
+    <div class="score">
+      <div>إنت <strong id="score-x">0</strong></div>
+      <div>تعادل <strong id="score-draw">0</strong></div>
+      <div>الكمبيوتر <strong id="score-o">0</strong></div>
+    </div>
+
+    <button id="restart" class="restart">لعبة جديدة</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
