@@ -8,6 +8,7 @@
 | # | المشروع | اللي هتتعلمه | الكود |
 |---|---|---|---|
 | 01 | تطبيق طقس | fetch · async/await · API · try/catch · localStorage | [01-weather-app](01-weather-app) |
+| 02 | لعبة X-O ضد الكمبيوتر | arrays · منطق الفوز · مخ للكمبيوتر · JSON · setTimeout | [02-xo-game](02-xo-game) |
 
 ## تشغّل أي مشروع إزاي
 1. نزّل الكود: زرار **Code** ⬅ **Download ZIP**.
