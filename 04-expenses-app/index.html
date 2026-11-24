@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مصروفاتي</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>💰 مصروفاتي</h1>
+
+    <div class="total">
+      <span>إجمالي المصروفات</span>
+      <strong id="total">0 جنيه</strong>
+    </div>
+
+    <form id="expense-form" class="form">
+      <input id="title" type="text" placeholder="صرفت على إيه؟" autocomplete="off">
+      <input id="amount" type="number" placeholder="المبلغ" min="1">
+      <select id="category">
+        <option value="food">🍔 أكل</option>
+        <option value="transport">🚗 مواصلات</option>
+        <option value="bills">💡 فواتير</option>
+        <option value="fun">🎉 خروجات</option>
+        <option value="other">📦 تانية</option>
+      </select>
+      <button type="submit">ضيف</button>
+    </form>
+
+    <section id="chart" class="chart"></section>
+
+    <ul id="list" class="list"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
