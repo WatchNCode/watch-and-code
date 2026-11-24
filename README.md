@@ -10,6 +10,7 @@
 | 01 | تطبيق طقس | fetch · async/await · API · try/catch · localStorage | [01-weather-app](01-weather-app) |
 | 02 | لعبة X-O ضد الكمبيوتر | arrays · منطق الفوز · مخ للكمبيوتر · JSON · setTimeout | [02-xo-game](02-xo-game) |
 | 03 | 10 أخطاء JavaScript | أنواع البيانات · == و === · defer · map · await · let · spread · sort · floating point | [03-js-mistakes](03-js-mistakes) |
+| 04 | تطبيق مصروفات | select · localStorage · reduce · filter · for...of · for...in · رسم بياني | [04-expenses-app](04-expenses-app) |
 
 ## تشغّل أي مشروع إزاي
 1. نزّل الكود: زرار **Code** ⬅ **Download ZIP**.
